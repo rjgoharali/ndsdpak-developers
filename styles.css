@@ -2,14 +2,14 @@
   --primary: #0b1f3a;
   --secondary: #1abc9c;
   --accent: #d4af37;
-  --background: #f5f7fa;
-  --surface: #ffffff;
-  --surface-soft: #eef3f7;
-  --text: #2c3e50;
-  --muted: #5f7185;
-  --line: rgba(44, 62, 80, 0.12);
+  --background: #081423;
+  --surface: #10253f;
+  --surface-soft: #0d1d31;
+  --text: #edf3f9;
+  --muted: #b4c0cf;
+  --line: rgba(237, 243, 249, 0.12);
   --light: #ffffff;
-  --shadow: 0 16px 40px rgba(11, 31, 58, 0.08);
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
 }
 
 * {
@@ -67,7 +67,7 @@ strong {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(245, 247, 250, 0.94);
+  background: rgba(8, 20, 35, 0.94);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
 }
@@ -128,7 +128,7 @@ strong {
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--primary);
+  color: var(--light);
 }
 
 .nav-links a.active::after,
@@ -145,8 +145,8 @@ strong {
 .nav-toggle {
   display: none;
   border: 1px solid var(--line);
-  background: #fff;
-  color: var(--text);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--light);
   border-radius: 999px;
   padding: 0.7rem 1rem;
   font-weight: 700;
@@ -220,8 +220,8 @@ strong {
 }
 
 .btn-secondary {
-  background: #fff;
-  color: var(--primary);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--light);
   border: 1px solid var(--line);
 }
 
@@ -262,7 +262,7 @@ strong {
   padding: 0.45rem 0.8rem;
   border-radius: 999px;
   background: rgba(26, 188, 156, 0.12);
-  color: var(--secondary);
+  color: #8ce2d1;
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -299,7 +299,7 @@ strong {
 }
 
 .soft-section {
-  background: linear-gradient(180deg, rgba(11, 31, 58, 0.02), rgba(11, 31, 58, 0));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
 }
 
 .strip-grid,
@@ -377,7 +377,7 @@ strong {
 }
 
 .dark-section {
-  background: var(--primary);
+  background: #06111f;
 }
 
 .light,
@@ -403,7 +403,7 @@ strong {
   padding: 1.6rem;
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 1.25rem;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .expertise-block h3 {
@@ -452,9 +452,9 @@ strong {
   min-height: 3rem;
   padding: 0.1rem 1rem;
   border-radius: 999px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(26, 188, 156, 0.22);
-  color: var(--primary);
+  color: var(--light);
   font-weight: 600;
 }
 
@@ -479,8 +479,8 @@ strong {
   border-radius: 1rem;
   padding: 0.95rem 1rem;
   font: inherit;
-  color: var(--text);
-  background: #fff;
+  color: var(--light);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .contact-form textarea {
@@ -507,7 +507,7 @@ strong {
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 1.4rem 0 2rem;
-  background: #fff;
+  background: #06111f;
 }
 
 .footer-grid {
